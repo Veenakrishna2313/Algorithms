@@ -1,0 +1,10 @@
+showProperties=(obj)=>{
+  for(var props in obj){
+    if(typeof(obj[props])==='string')   
+       console.log(props + " "+ obj[props]);
+       
+  }
+  
+};
+
+showProperties({name:"a", age:32});
