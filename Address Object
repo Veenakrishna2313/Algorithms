@@ -1,0 +1,13 @@
+let address1={
+  street:"15505 79th ave NE",
+  city:"Kenmore, WA",
+  zipcode:98028
+  };
+
+showAddress=(addresses)=>{
+  for(let key in addresses){
+    console.log(key, addresses[key]);
+  }
+}
+
+showAddress(address1);
