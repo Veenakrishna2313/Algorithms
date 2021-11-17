@@ -1,0 +1,22 @@
+//factory function
+
+ createAddress=(street, city, zipcode)=>{
+  return{
+    street,
+    city,
+    zipcode
+  };
+}
+ 
+ console.log(createAddress("a", "b", "c"));
+
+//constructor function
+
+function Address(street, city, zipcode)  {
+   this.street=street,
+   this.city=city,
+    this.zipcode=zipcode
+  }
+
+const anotherAddress= new Address("a", "b", "code");
+console.log(anotherAddress);
