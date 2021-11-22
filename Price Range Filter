@@ -1,0 +1,5 @@
+let priceRanges=[
+  {label:'$', tooltip:"Inexpensive",inPerPerson:0,maxPerPerson:10 },
+  {label:'$$', tooltip:"Moderate",inPerPerson:11,maxPerPerson:20 },
+  {label:'$$$', tooltip:"Expensive",inPerPerson:21,maxPerPerson:50 }
+];
