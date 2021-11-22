@@ -1,0 +1,16 @@
+let blogPost={
+  title:"Lord of the Rings",
+  body:"LOTR 1, 2, 3",
+  author:"Veena",
+  views:100,
+  comments:[
+   {author:"amazingly written",
+    body:"I can't get over this Movie"},
+   {author:"amazingly written, wowwww",
+    body:"Great Movie"}
+    ],
+  isLive:true,
+ 
+};
+
+console.log(blogPost);
