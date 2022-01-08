@@ -1,0 +1,11 @@
+const arr=[14,1,2];
+
+max=(num)=>{
+  
+ return num.reduce((acc,ele)=>{
+  return  (ele>acc) ? ele:acc;
+   
+ })
+}
+
+console.log(max(arr));
