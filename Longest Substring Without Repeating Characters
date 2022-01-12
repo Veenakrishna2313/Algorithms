@@ -1,0 +1,27 @@
+    var max=0; var start=0; var count=0; var n=arr.length;
+  var set= new Set();
+    
+    if(n<=1) return n;
+
+  for(var i=0; i<n;i++){
+    if(!set.has(arr[i]))
+    {
+      set.add(arr[i]);
+      count++;
+      max=Math.max(count,max);      
+    }
+    else{
+        while(set.has(arr[i]))
+        {
+          set.delete(arr[start]);
+          start++;
+          count--;
+        }
+
+        set.add(arr[i]);
+        count++;
+    }
+  }
+
+  return max;
+    
